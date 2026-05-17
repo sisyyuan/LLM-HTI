@@ -81,20 +81,25 @@ Collectively, this work provides a new computational framework for herb–target
 
 ```
 .
-├── code/                     # Training and evaluation scripts
-│   ├── train.py
-│   ├── test.py
+├── Graph_representation/                     
+│   ├── code/
+│       ├── data_utils.py
+│       ├── model/
+│           ├── config.py
+│       ├── test.py
+│       ├── train_AMSS.py
+│   ├── data/
+│       ├── set_all.npy
+│       ├── testing_set.npy
+│       ├── training_set.npy
+│       ├── val_set.npy
 │
-├── Knowledge_embedding/     # Precomputed semantic embeddings
-│   ├── herb_embedding.txt
-│   ├── gene_embedding.txt
-│
-├── data/
-│   ├── training_set.npy
-│   ├── testing_set.npy
-│   ├── val_set.npy
-│   ├── set_all.npy
-│   ├── name2id
+├── Knowledge_embedding/     
+│   ├── gene_fused_64d_0.5.txt
+│   ├── gpt_crossattention.py
+│   ├── herb_fused_64d.txt
+│   ├── herb_LINE_Qwen.txt
+│   ├── Qwen.py
 │
 ├── fig1.jpg                 # Model architecture
 ├── requirements.txt
