@@ -203,7 +203,7 @@ If you find this work useful, please cite:
 
 ```bibtex
 @article{XXX2026,
-  title={LLM-Driven Herb–Target Interaction Prediction via Integrative Knowledge Graph Learning},
+  title={LLM-HTI: Large language model-enabled herb-target interaction prediction for intelligent traditional medicine discovery},
   author={XXX},
   journal={XXX},
   year={2026}
