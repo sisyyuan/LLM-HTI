@@ -131,10 +131,6 @@ Each dataset (`.npy`) contains:
   * targets → herbs
 * Interaction statistics
 
-Additional file:
-
-* `name2id`: maps entity IDs to real herb/gene names
-
 ---
 
 ## 🚀 Usage
