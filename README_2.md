@@ -1,18 +1,9 @@
 ---
 
-# 🧠 LLM-Driven Herb–Target Interaction Prediction Framework
+# 🧠 LLM-HTI: Large language model-enabled herb-target interaction prediction for intelligent traditional medicine discovery
 
 ## 📌 Overview
-
-This project proposes a **large language model (LLM)-driven computational framework** for herb–target interaction (HTI) prediction, aiming to bridge **Traditional Chinese Medicine (TCM)** and **modern biomedical knowledge**.
-
-Unlike traditional methods that rely solely on graph structure or handcrafted features, our framework integrates:
-
-* 🧠 **LLM-based semantic representation**
-* 🌐 **Knowledge graph topology**
-* ⚙️ **Adaptive optimization mechanism**
-
-to model the **multi-component and multi-target mechanisms** of TCM.
+Large language models (LLMs), owing to their strong knowledge integration capabilities, are reshaping the research paradigm of virtual screening and molecular design and are emerging as a key technological driver of modern drug discovery. Inspired by these advances, this study proposes a large-model-driven computational framework for integrative Chinese and Western medicine knowledge graphs, aiming to accurately identify potential herb–target interactions (HTIs), thereby elucidating the multi-component and multi-target synergistic mechanisms of traditional Chinese medicine and providing methodological support for its development. This study leverages large language models to extract latent semantic information from HTIs and integrates it with the topological structure of the Traditional Chinese and Western Medicine Knowledge Graph (TWKG), enabling a joint representation of traditional medicine characteristics and their links to modern biomedical knowledge. On this basis, LLM-HTI introduces a parameter-adaptive updating mechanism that dynamically selects parameters according to gradient importance, thereby improving training stability and optimization efficiency without altering the model architecture. On a large-scale dataset containing 38,002 high-quality HTI pairs, LLM-HTI achieved an HR@10 of 0.4702 and a NDCG@10 of 0.4026, outperforming existing baselines. Collectively, this work provides a new computational framework for herb–target mechanism analysis and intelligent drug discovery driven by the integration of traditional and modern medicine.
 
 ---
 
