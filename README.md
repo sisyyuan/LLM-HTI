@@ -150,7 +150,7 @@ Each dataset (`.npy`) contains:
 
 ```bash
 cd code
-python train.py
+python train_AMSS.py
 ```
 
 ---
